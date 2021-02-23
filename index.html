@@ -7,5 +7,131 @@
 <body>
 <h1>Моя первая страница</h1>
 <a href="about/index.html">Об авторе </a>
+<p>Приветствую.&#x270C</p>
+<p>Меня зовут Максим и я обучаюсь на курсе <em>Front-End</em>&#169; в школе <strong>Intellect Fox</strong>&#174;.&#x1F525
+</p>
+<img src="https://cs11.pikabu.ru/post_img/2019/02/04/12/1549312329147951618.jpg" alt="two cats" width="50%">
+<ol>
+    <li>Знакомство с WEB</li>
+    <ul>
+        <li>Краткая история WEB</li>
+        <li>Как устроен браузер</li>
+        <li>Что такое Git?</li>
+    </ul>
+    <li>HTML-вестка - первые шаги</li>
+    <ul>
+        <li>Настройка рабочей среды</li>
+        <li>Какие бывают теги</li>
+        <li>Создание собственной страницы</li>
+    </ul>
+    <li>Погружение в HTML-разметку</li>
+    <ul>
+        <li>Мета-теги</li>
+        <li>Теги для работы со списками</li>
+        <li>Теги для работы с таблицами</li>
+        <li>Теги для работы с блоками</li>
+    </ul>
+</ol>
+<table border="1" width="100%">
+    <tr>
+        <th>Tag</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>&lt;table&gt;</td>
+        <td>Defines a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Defines a row in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;th&gt;</td>
+        <td rowspan="2">Defines a "Header cell" / "cell" in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;td&gt;</td>
+    </tr>
+    <tr>
+        <td colspan="2">Rarely used</td>
+    </tr>
+    <tr>
+        <td>&lt;caption&gt;</td>
+        <td>Defines a table caption</td>
+    </tr>
+    <tr>
+        <td>&lt;thead&gt;</td>
+        <td>Groups the header content in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Groups the body content in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>Groups the footer content in a table</td>
+    </tr>
+</table>
+<br>
+<div>
+    <form action="/" method="get">
+        <fieldset>
+            <legend>My first form</legend>
+            <div>
+                <label for="name">Name</label><br>
+                <input id="name" type="text" name="name" placeholder="Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input id="email" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input id="password" type="password" name="password" placeholder="Password" required>
+            </div>
+            <div>
+                <label for="level">You programming level</label><br>
+                <input id="level" type="range" max="10" min="1" name="level">
+            </div>
+            <p>What does HTML stand for?</p>
+            <div>
+                <input id="check1" type="checkbox" name="check1">
+                <label for="check1">Hyperlinks and Text Markup Language</label><br>
+                <input id="check2" type="checkbox" name="check1">
+                <label for="check2">Home Tool Markup Language</label><br>
+                <input id="check3" type="checkbox" name="check1">
+                <label for="check3">Hyper Text Markup Language</label>
+            </div>
+            <p>What does HTTP stand of?</p>
+            <div>
+                <input id="radio1" type="radio" name="gr1">
+                <label for="radio1">Hyper Text Translate Protocol</label><br>
+                <input id="radio2" type="radio" name="gr1">
+                <label for="radio2">Hyper Text Transmission Protocol</label><br>
+                <input id="radio3" type="radio" name="gr1">
+                <label for="radio3">Hyper Text Transfer Protocol</label>
+            </div>
+            <br>
+            <div>
+                <label for="comment">Comment</label><br>
+                <textarea id="comment" maxlength="500" placeholder="Comment" name="comment"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="select">What does HTML stand for?</label><br>
+                <select id="select" name="select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<hr>
 </body>
 </html>
