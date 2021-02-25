@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+.background-body {
+    width: 1440px;
+    height: 569px;
+    background-color: white;
+}
+.header {
+    position:absolute;
+    left:567px;
+    top:120px;
+    width: 306px;
+    height: 47px;
+}
+.rectangle  {
+    position:absolute;
+    left:670px;
+    top:187px;
+    width: 100px;
+    height: 4px;
+    background-color:#F5BD41;
+}
+.support-img{
+    position:absolute;
+    left:214px;
+    top:275px;
+    width: 75px;
+    height: 92px;
+}
+.support-text {
+    position:absolute;
+    left:181px;
+    top:419px;
+    width: 141px;
+}
+.communicate-img {
+    position:absolute;
+    left:521px;
+    top:279px;
+    width: 83px;
+    height: 83px;
+}
+.communicate-text {
+    position:absolute;
+    left:416px;
+    top:419px;
+    width: 296px;
+}
+.book_online-img {
+    position:absolute;
+    left:826px;
+    top:288px;
+    width: 100px;
+    height: 67px;
+}
+.book_online-text {
+    position:absolute;
+    left:792px;
+    top:419px;
+    width: 168px;
+}
+.real_guest-img {
+    position:absolute;
+    left:1143px;
+    top:275px;
+    width: 92px;
+    height: 83px;
+}
+.real_guest-text {
+    position:absolute;
+    left:1077px;
+    top:419px;
+    width: 225px;
+}
+h1 {
+    margin: 0;
+    font-family: "Roboto Light", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: rgba(56, 56, 56, 1);
+}
+p {
+    font-family: "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(56, 56, 56, 1);
+}
