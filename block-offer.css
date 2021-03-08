@@ -1,17 +1,23 @@
-body {
+* {
     margin: 0;
 }
 
-.background-body {
-    width: 1440px;
+.background-offer {
+    max-width: 1440px;
     height: 569px;
     background-color: white;
+}
+
+.offer-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 94px;
 }
 
 .header-container {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
     margin-bottom: 20px;
 }
 
@@ -34,83 +40,22 @@ body {
 
 .icon-container {
     display: flex;
+    align-items: baseline;
     justify-content: space-between;
     margin-top: 80px;
-    margin-bottom: 122px;
-}
-
-.support-box {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 180px;
     margin-left: 105px;
-}
-
-.support-img {
-    width: 75px;
-    height: 92px;
-    margin-bottom: 52px;
-}
-
-.support-text {
-    width: 141px;
-    margin: auto;
-}
-
-.communicate-box {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 180px;
-}
-
-.communicate-img {
-    width: 83px;
-    height: 83px;
-    margin-bottom: 60px;
-}
-
-.communicate-text {
-    margin: auto;
-    width: 296px;
-}
-
-.book_online-box {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 180px;
-}
-
-.book_online-img {
-    width: 100px;
-    height: 67px;
-    margin-bottom: 75px;
-}
-
-.book_online-text {
-    margin: auto;
-    width: 168px;
-}
-
-.real_guest-box {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 180px;
     margin-right: 105px;
 }
 
-.real_guest-img {
-    width: 92px;
-    height: 83px;
-    margin-bottom: 60px;
+.icon-box {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 180px;
 }
 
-.real_guest-text {
-    margin: auto;
-    width: 225px;
+.icon-img {
+    margin-bottom: 55px;
 }
 
 h2 {
@@ -131,5 +76,4 @@ p {
     line-height: 28px;
     text-align: center;
     color: rgba(56, 56, 56, 1);
-    margin: 0;
 }
