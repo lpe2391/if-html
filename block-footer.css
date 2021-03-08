@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+.background-footer {
+    max-width: 1440px;
+    height: 630px;
+    background-color: #10367C;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    margin-left: 105px;
+    margin-right: 275px;
+    margin-bottom: 65px;
+}
+
+.about-box {
+    display: inline-block;
+    width: 195px;
+    height: 215px;
+}
+
+.footer-text {
+    margin-bottom: 24px;
+}
+
+.propetry_types-box {
+    display: inline-block;
+    width: 135px;
+    height: 310px;
+}
+
+.support-box {
+    display: inline-block;
+    width: 235px;
+    height: 125px;
+}
+
+.triphouse_inc-container {
+    display: flex;
+    margin-left: 105px;
+    width: 260px;
+    height: 16px;
+}
+
+.triphouse_inc-text {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header {
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    color: #FFFFFF;
+}
