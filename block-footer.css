@@ -37,14 +37,14 @@
     height: 125px;
 }
 
-.triphouseInc-container {
+.triphouse-inc-container {
     display: flex;
     margin-left: 105px;
     width: 260px;
     height: 16px;
 }
 
-.triphouseInc-text {
+.triphouse-inc-text {
     font-size: 14px;
     line-height: 16px;
 }
