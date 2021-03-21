@@ -11,10 +11,8 @@
 .footer-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
-    margin-left: 105px;
-    margin-right: 275px;
-    margin-bottom: 65px;
+    padding: 120px 0 0 0;
+    margin: 0 275px 65px 105px;
 }
 
 .about-box {
@@ -39,14 +37,14 @@
     height: 125px;
 }
 
-.triphouse_inc-container {
+.triphouseInc-container {
     display: flex;
     margin-left: 105px;
     width: 260px;
     height: 16px;
 }
 
-.triphouse_inc-text {
+.triphouseInc-text {
     font-size: 14px;
     line-height: 16px;
 }
